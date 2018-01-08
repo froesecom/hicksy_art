@@ -10,11 +10,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171126030006) do
+ActiveRecord::Schema.define(version: 20180108032842) do
+
+  create_table "painting_categories", force: :cascade do |t|
+    t.string "name"
+    t.string "slug"
+    t.text "overview"
+    t.integer "position"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "painting_painting_categories", force: :cascade do |t|
+    t.integer "painting_id", null: false
+    t.integer "painting_category_id", null: false
+    t.integer "position"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["painting_category_id"], name: "index_painting_painting_categories_on_painting_category_id"
+    t.index ["painting_id"], name: "index_painting_painting_categories_on_painting_id"
+  end
 
   create_table "paintings", force: :cascade do |t|
     t.string "name"
     t.string "slug"
+    t.string "beer"
     t.integer "price"
     t.text "details"
     t.integer "position"

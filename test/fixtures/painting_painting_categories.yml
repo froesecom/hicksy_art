@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  painting: one
+  painting_category: one
+  position: 1
+
+two:
+  painting: two
+  painting_category: two
+  position: 1
