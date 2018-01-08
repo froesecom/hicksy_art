@@ -4,6 +4,9 @@
 - acts_as_list
 - Seed migration
 - add remaining models (enquiry and generic page)
+- controllers
+- views
+- bootstrap/css
 - cms
 - 404 page
 - browser sniffing
