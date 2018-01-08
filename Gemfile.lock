@@ -178,6 +178,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    seed_migration (1.2.3)
     selectize-rails (0.12.4.1)
     selenium-webdriver (3.7.0)
       childprocess (~> 0.5)
@@ -230,6 +231,7 @@ DEPENDENCIES
   puma (~> 3.7)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
+  seed_migration
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
