@@ -2,11 +2,13 @@
 
 - friendly_id
 - acts_as_list
+- Seed migration
+- add remaining models (enquiry and generic page)
+- cms
 - 404 page
 - browser sniffing
 - transactional emails
 - Authentication
-- Seed migration
 - tests
 
 Structure
