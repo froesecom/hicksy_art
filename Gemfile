@@ -22,6 +22,9 @@ gem 'uglifier', '>= 1.3.0'
 #slugifying records
 gem 'friendly_id'
 
+#positioning
+gem 'acts_as_list'
+
 #cms
 gem 'administrate'
 

@@ -5,7 +5,6 @@ class CreatePaintings < ActiveRecord::Migration[5.1]
       t.string :slug
       t.integer :price
       t.text :details
-      t.integer :position
       t.boolean :featured
       t.attachment :image
 

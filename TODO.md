@@ -1,9 +1,9 @@
 # Todos
 
-- friendly_id
 - acts_as_list
 - Seed migration
 - add remaining models (enquiry and generic page)
+- bot trap on enquiry
 - controllers
 - views
 - bootstrap/css
