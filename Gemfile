@@ -32,7 +32,7 @@ gem 'acts_as_list'
 gem 'administrate'
 
 #image processing
-gem "paperclip", "~> 5.0.0"
+gem "paperclip", "~> 5.2.1"
 
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
