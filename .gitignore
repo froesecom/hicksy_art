@@ -19,6 +19,7 @@ cabybara-*.html
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /public/system
+/public/paintings
 /coverage/
 /spec/tmp
 *.orig
