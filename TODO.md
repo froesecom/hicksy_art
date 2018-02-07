@@ -1,7 +1,6 @@
 # Todos
 
-- ordering scopes
-- Seed migration
+- Write import task for photos
 - add remaining models (enquiry and generic page)
 - bot trap on enquiry
 - controllers
