@@ -2,7 +2,7 @@ class Painting < ApplicationRecord
   extend FriendlyId
   friendly_id :name, use: :slugged
 
-  has_many :painting_painting_categories, inverse_of: :painting
+  has_many :painting_painting_categories, inverse_of: :painting, dependent: :destroy
   has_many :painting_categories, through: :painting_painting_categories, inverse_of: :paintings
 
   has_attached_file :image
