@@ -1,5 +1,15 @@
 <header class="header">
+
   <div class= "header__wrapper">
     <h1 class="header__logo">Allen Hicks</h1>
   </div>
+  
+  <div class="carousel carousel--homepage">
+    <% @paintings.each do |p|  %>  
+      <div class="carousel__item">
+        <%= image_tag(p.image.url) %>  
+      </div>
+    <% end  %>
+  </div>
+
 </header>
