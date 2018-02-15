@@ -57,6 +57,7 @@ GEM
     autoprefixer-rails (7.1.6)
       execjs
     bindex (0.5.0)
+    browser (2.4.0)
     builder (3.2.3)
     capybara (2.16.1)
       addressable
@@ -223,6 +224,7 @@ PLATFORMS
 DEPENDENCIES
   acts_as_list
   administrate
+  browser
   capybara (~> 2.13)
   friendly_id
   listen (>= 3.0.5, < 3.2)

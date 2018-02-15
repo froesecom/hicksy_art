@@ -19,6 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#browser sniffing
+gem 'browser'
+
 #seed migration
 gem 'seed_migration'
 

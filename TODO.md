@@ -1,5 +1,8 @@
 # Todos
 
+## FE
+- favicon
+
 ## BE
 - Write import task for photos
 - add remaining models (enquiry and generic page)

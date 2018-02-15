@@ -7,9 +7,20 @@
 module Admin
   class ApplicationController < Administrate::ApplicationController
     before_action :authenticate_admin
+    before_action :set_device_type
 
     def authenticate_admin
       # TODO Add authentication logic here.
+    end
+
+    def set_device_type
+      @device_type = if browser.device.mobile?
+                       :mobile
+                     elsif browser.device.tablet?
+                       :tablet
+                     else
+                       :desktop
+                     end
     end
 
     # Override this value to specify the number of elements to display at a time

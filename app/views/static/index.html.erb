@@ -7,7 +7,7 @@
   <div class="carousel carousel--homepage">
     <% @paintings.each do |p|  %>  
       <div class="carousel__item">
-        <%= image_tag(p.image.url) %>  
+        <%= image_tag(p.image.url(@device_type)) %>  
       </div>
     <% end  %>
   </div>
