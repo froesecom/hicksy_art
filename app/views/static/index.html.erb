@@ -1,15 +1,25 @@
 <header class="header">
 
-  <div class= "header__wrapper">
-    <h1 class="header__logo">Allen Hicks</h1>
+  <div class="header__wrapper">
+    <div class=logo__wrapper">
+      <h1 class="logo">Allen Hicks</h1>
+    </div>
+    <div class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">About</li>
+        <li class="menu__item">Paintings</li>
+        <li class="menu__item">Legal</li>
+        <li class="menu__item">Contact</li>
+      </ul>
+    </div>
   </div>
-  
-  <div class="carousel carousel--homepage">
-    <% @paintings.each do |p|  %>  
-      <div class="carousel__item">
-        <%= image_tag(p.image.url(@device_type)) %>  
-      </div>
-    <% end  %>
-  </div>
-
 </header>
+
+<div class="carousel carousel--homepage">
+  <% @paintings.each do |p|  %>  
+    <div class="carousel__item">
+      <%= image_tag(p.image.url(@device_type)) %>  
+    </div>
+  <% end  %>
+</div>
+
