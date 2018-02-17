@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 20180108092302) do
     t.string "slug"
     t.integer "price"
     t.text "details"
-    t.boolean "featured"
+    t.boolean "featured", default: false
     t.string "image_file_name"
     t.string "image_content_type"
     t.integer "image_file_size"
